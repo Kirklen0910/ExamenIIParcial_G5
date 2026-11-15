@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">PM2 Examen Grupo 5</string>
+    <string name="titulo_registro">Registro de contacto</string>
+    <string name="titulo_actualizar">Actualizar contacto</string>
+    <string name="titulo_lista">Contactos salvados</string>
+    <string name="titulo_mapa">Ubicación del contacto</string>
+
+    <string name="logo_uth">Logo de UTH</string>
+    <string name="firma_digital">Firma digital</string>
+    <string name="limpiar_firma">Limpiar firma</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Teléfono</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="usar_ubicacion">Usar ubicación actual</string>
+    <string name="salvar_contacto">Salvar contacto</string>
+    <string name="actualizar_contacto">Actualizar contacto</string>
+    <string name="contactos_salvados">Contactos salvados</string>
+
+    <string name="buscar">Buscar</string>
+    <string name="ver_firma">Ver firma</string>
+    <string name="eliminar_contacto">Eliminar contacto</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="sin_contactos">No hay contactos para mostrar.</string>
+    <string name="seleccione_contacto">Seleccione un contacto de la lista.</string>
+    <string name="accion">Acción</string>
+    <string name="ir_a_ubicacion">¿Desea ir a la ubicación de %1$s?</string>
+    <string name="confirmar_eliminar">¿Desea eliminar el contacto %1$s?</string>
+    <string name="firma_de">Firma de %1$s</string>
+    <string name="detalle_firma">%1$s · %2$d bytes</string>
+
+    <string name="alerta">Alerta</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="activar">Activar</string>
+    <string name="configuracion">Configuración</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+
+    <string name="error_nombre">El nombre es obligatorio.</string>
+    <string name="error_nombre_largo">El nombre no puede superar 100 caracteres.</string>
+    <string name="error_telefono">El teléfono debe tener entre 8 y 15 dígitos.</string>
+    <string name="firma_vacia">No se ha capturado la firma.</string>
+    <string name="sin_ubicacion">No se ha obtenido la ubicación. Verifique que el GPS esté activo.</string>
+    <string name="gps_inactivo">El GPS no está activo. Actívelo para obtener la ubicación.</string>
+    <string name="permiso_ubicacion_denegado">Debe permitir el acceso a la ubicación para registrar el contacto.</string>
+    <string name="error_png">No se pudo generar la imagen de la firma.</string>
+    <string name="error_tamano">La firma supera el tamaño máximo de 1 MB.</string>
+    <string name="contacto_guardado">Contacto guardado.</string>
+    <string name="contacto_actualizado">Contacto actualizado.</string>
+    <string name="contacto_eliminado">Contacto eliminado.</string>
+</resources>
