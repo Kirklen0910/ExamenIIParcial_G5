@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="verde">#FF1B7F2A</color>
+    <color name="azul">#FF2F6FDE</color>
+    <color name="rojo">#FFC62828</color>
+    <color name="borde_firma">#FF9E9E9E</color>
+    <color name="trazo_firma">#FF0D3B9E</color>
+    <color name="seleccion">#332F6FDE</color>
+    <color name="velo">#66000000</color>
+</resources>
