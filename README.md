@@ -103,4 +103,32 @@ Cada petición muestra un indicador de carga. Si la API no responde aparece **"S
 
 ## Capturas
 
-Las capturas de la app, Swagger y Postman están en [docs/capturas](docs/capturas).
+### Aplicación Android
+
+| | | |
+|:---:|:---:|:---:|
+| **Registro con firma y ubicación GPS**<br><img src="docs/capturas/app/7685bc10-9be0-415a-b8a4-20e0c04d3ee4.jpg" width="220"> | **Contacto guardado (POST)**<br><img src="docs/capturas/app/0a9c2d7f-72af-42d7-bef4-6207703c215b.jpg" width="220"> | **Validación: firma no capturada**<br><img src="docs/capturas/app/e105cad6-3992-4e8f-9426-aeb5372760e2.jpg" width="220"> |
+| **Validación: teléfono inválido**<br><img src="docs/capturas/app/25373d37-6109-4e81-a548-e434e8248f82.jpg" width="220"> | **Lista de contactos (GET)**<br><img src="docs/capturas/app/8b0e2ca0-9d1d-452b-8953-91b0aa32bcec.jpg" width="220"> | **Búsqueda por texto**<br><img src="docs/capturas/app/37bb04f0-9979-42b4-8bd6-d812b1f2a979.jpg" width="220"> |
+| **Ver firma descargada de la API**<br><img src="docs/capturas/app/da4b35bf-7e69-4331-a803-0bda1558b58f.jpg" width="220"> | **¿Desea ir a la ubicación?**<br><img src="docs/capturas/app/ba158598-439a-42f0-8d48-37e081fcc647.jpg" width="220"> | **Mapa con el punto del contacto**<br><img src="docs/capturas/app/c4d90802-f9f5-45f8-950e-2b841b5edbb7.jpg" width="220"> |
+| **Actualizar contacto (PUT)**<br><img src="docs/capturas/app/129bddf4-28fe-4a96-aa06-8c273351fa42.jpg" width="220"> | **Contacto actualizado**<br><img src="docs/capturas/app/6362ff6b-7ec8-459b-af15-61a623718509.jpg" width="220"> | **Confirmar eliminación**<br><img src="docs/capturas/app/938143b9-3e9f-4d02-9de2-4ce2f1460261.jpg" width="220"> |
+| **Contacto eliminado (DELETE)**<br><img src="docs/capturas/app/0810e92f-44bf-43aa-8fde-01bff802cbfe.jpg" width="220"> | **Sin conexión con la API y Reintentar**<br><img src="docs/capturas/app/6c299cb2-b92d-40a5-a14f-2baf38002415.jpg" width="220"> |  |
+
+### Swagger
+
+**Endpoints de la API**
+
+![Swagger endpoints](docs/capturas/swagger/Screenshot%202026-11-15%20175219.png)
+
+**POST multipart con la firma: 201 Created**
+
+![POST 201](docs/capturas/swagger/Screenshot%202026-11-15%20180008.png)
+
+**GET por id: 200 OK**
+
+![GET 200](docs/capturas/swagger/Screenshot%202026-11-15%20180333.png)
+
+### Postman
+
+**Ejecución de la colección: 16 pruebas aprobadas, 0 fallidas**
+
+![Postman](docs/capturas/postman/Screenshot%202026-11-15%20181049.png)
