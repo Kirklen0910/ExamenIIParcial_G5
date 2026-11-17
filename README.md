@@ -27,7 +27,7 @@ Examen del segundo parcial de Programación Móvil I (PMO-0602). Una API REST en
 
 | Entorno | URL |
 |---|---|
-| API publicada | `https://URL-PUBLICADA/` (se completa cuando se publique) |
+| API publicada | `https://api2.orellanawebhostin.space/` |
 | Local en la PC (Postman y Swagger) | `http://localhost:5080` |
 | Celular o emulador conectado por USB (`adb reverse tcp:5080 tcp:5080`) | `http://localhost:5080` |
 
@@ -76,7 +76,7 @@ La base de datos `contactos.db` y la carpeta `Archivos` se crean solas al inicia
 cd ContactosApi
 dotnet publish src\Contactos.Api -c Release -o publicar
 ```
-Se sube el contenido de la carpeta `publicar` a un hosting que soporte ASP.NET Core 8 y permita escribir en la carpeta de la aplicación (ahí se crean `contactos.db` y `Archivos`). La URL publicada debe usar `https://`. Después se prueba en `https://URL-PUBLICADA/swagger`.
+Se sube el contenido de la carpeta `publicar` a un hosting que soporte ASP.NET Core 8 y permita escribir en la carpeta de la aplicación (ahí se crean `contactos.db` y `Archivos`). La URL publicada debe usar `https://`. Después se prueba en `https://api2.orellanawebhostin.space/swagger`.
 
 ### Postman
 1. Importe `ContactosApi/postman/PM2ExamenGrupo5.postman_collection.json` y `PM2ExamenGrupo5.postman_environment.json`.
@@ -86,9 +86,9 @@ Se sube el contenido de la carpeta `publicar` a un hosting que soporte ASP.NET C
 
 ### App Android
 1. Abra la carpeta raíz del proyecto en Android Studio y sincronice Gradle.
-2. Conecte el celular por USB con la depuración USB activa (o abra un emulador con Google Play) y ejecute `adb reverse tcp:5080 tcp:5080`.
-3. Con la API encendida, ejecute la app.
-4. Acepte los permisos de ubicación y de red local. Si el GPS está apagado, la app pide activarlo.
+2. La app usa por defecto la API publicada `https://api2.orellanawebhostin.space/` (propiedad `apiBaseUrl` en `gradle.properties`), así que funciona desde cualquier red con internet.
+3. Para usar la API local, cambie `apiBaseUrl` a `http://localhost:5080/`, conecte el celular por USB con la depuración USB activa (o abra un emulador con Google Play) y ejecute `adb reverse tcp:5080 tcp:5080`.
+4. Ejecute la app y acepte los permisos de ubicación y de red local. Si el GPS está apagado, la app pide activarlo.
 5. En el emulador, la ubicación se cambia en **⋮ → Location**.
 
 ## Funcionalidad

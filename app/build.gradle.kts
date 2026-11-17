@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
 }
 
-val apiBaseUrl = providers.gradleProperty("apiBaseUrl").getOrElse("http://localhost:5080/")
+val apiBaseUrl = providers.gradleProperty("apiBaseUrl").getOrElse("https://api2.orellanawebhostin.space/")
 
 android {
     namespace = "com.uth.pm2examengrupo5"
